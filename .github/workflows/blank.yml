@@ -30,4 +30,6 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           password: ${{ secrets.PASSWORD }}
-          script: cd applications/dev/public_html/www/; git clone git@github.com:diamondicq/ecommerce.git .
+          script: cd applications/dev/public_html/www/; \
+                  ls .; \
+                  pwd
