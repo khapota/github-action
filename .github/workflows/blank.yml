@@ -25,6 +25,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - run: |
              if [ $GITHUB_REPOSITORY == "khapota/github-action" ]; then
-             exit 1
+             echo "Do nothing"
+             exit 0
              fi
       - run: echo "kan"
