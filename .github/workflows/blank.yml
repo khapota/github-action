@@ -24,7 +24,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - run: |
-             if [ $GITHUB_REPOSITORY == "khapota/github-action" ]; then
+             if [ $GITHUB_REPOSITORY == "khapota/gihub-action" ]; then
              echo "Do nothing"
              exit 0
              fi
